@@ -40,6 +40,9 @@ async def split_track(file: UploadFile):
 
     # Zip the output folder
     base_name = os.path.splitext(file.filename)[0]
+    
+    # MODELS NAME
+    
 
     model_name = "htdemucs"  # default model
 
