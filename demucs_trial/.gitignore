@@ -75,3 +75,7 @@ separated/
 *.tar
 *.gz
 *.rar
+
+
+backup.txt
+file.txt

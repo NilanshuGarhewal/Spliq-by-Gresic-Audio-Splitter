@@ -1,19 +1,18 @@
 # Core backend
-fastapi==0.115.0
-uvicorn==0.30.0
-python-multipart==0.0.9
-aiofiles==23.2.1
-python-dotenv==1.0.1
+fastapi
+uvicorn
+python-multipart
+aiofiles
+python-dotenv
 
 # Audio separation
-demucs==4.0.1
-torch==2.1.2
-numpy==1.26.4
-ffmpeg-python==0.2.0
+demucs
+numpy
+ffmpeg-python
 
 # File handling / utils
-zipfile36==0.1.3
-requests==2.32.3
+zipfile36
+requests
 
 # Optional (if you ever use pandas/matplotlib for stats or logs)
 # pandas==2.2.3
