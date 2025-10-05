@@ -1,0 +1,33 @@
+@use "./variables" as *;
+
+.button {
+  padding: getSpacing(sm) getSpacing(md);
+  border-radius: getSpacing(sm);
+  background-color: $fg-one;
+  color: $bg-one;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button-dark {
+  padding: getSpacing(sm) getSpacing(md);
+  border-radius: getSpacing(sm);
+  background-color: $bg-one;
+  border: 1px solid #ffffff30;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button-square {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: getSpacing(sm);
+  color: $fg-one;
+  @include flex-center;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $border-color;
+  }
+}

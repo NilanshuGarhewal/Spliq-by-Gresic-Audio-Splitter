@@ -1,0 +1,16 @@
+@use "./variables" as var;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+  background-color: var.$bg-one;
+  color: var.$fg-one;
+  font-family: var.$font-regular;
+}

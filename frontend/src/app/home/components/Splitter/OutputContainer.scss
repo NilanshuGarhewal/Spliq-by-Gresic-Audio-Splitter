@@ -1,0 +1,29 @@
+@use "../../../../sass/variables" as *;
+
+.output-container {
+  padding: getSpacing(lg) getSpacing(xl);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(md);
+
+  .output-header {
+    .title {
+      font-size: 1.5rem;
+      font-family: $font-bold;
+    }
+  }
+
+  .output-wrapper {
+    width: 100%;
+    height: auto;
+    border: $border;
+    border-radius: getSpacing(md);
+    background-color: $bg-two;
+    padding: getSpacing(md);
+    display: flex;
+    flex-direction: column;
+    gap: getSpacing(md);
+  }
+}

@@ -1,0 +1,36 @@
+@use "../../../../sass/variables" as *;
+
+.input-box {
+  width: 100%;
+  height: 300px;
+  background-color: $bg-two;
+  border: 1px dotted #ffffff50;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  .input-text {
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: getSpacing(sm);
+
+    .title {
+      font-size: 1.5rem;
+      font-family: $font-bold;
+    }
+  }
+
+  .file-input {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+}

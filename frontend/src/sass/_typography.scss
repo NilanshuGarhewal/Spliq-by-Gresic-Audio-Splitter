@@ -1,0 +1,74 @@
+// ROOBERT FONT
+
+@font-face {
+  font-family: "roobert regular";
+  src: url("fonts/Roobert-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "roobert medium";
+  src: url("fonts/Roobert-Medium.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "roobert bold";
+  src: url("fonts/Roobert-SemiBold.woff2") format("woff2");
+  font-weight: normal;
+}
+
+// AVENTA VARIABLE FONT
+
+@font-face {
+  font-family: "Aventa B";
+  src: url("fonts/aventa-font-family/Aventa-Bold.eot");
+  src: local("Aventa Bold"), local("fonts/aventa-font-family/Aventa-Bold"),
+    url("fonts/aventa-font-family/Aventa-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/aventa-font-family/Aventa-Bold.woff2") format("woff2"),
+    url("fonts/aventa-font-family/Aventa-Bold.woff") format("woff"),
+    url("fonts/aventa-font-family/Aventa-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aventa M";
+  src: url("fonts/aventa-font-family/Aventa-Medium.eot");
+  src: local("Aventa Medium"), local("fonts/aventa-font-family/Aventa-Medium"),
+    url("fonts/aventa-font-family/Aventa-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/aventa-font-family/Aventa-Medium.woff2") format("woff2"),
+    url("fonts/aventa-font-family/Aventa-Medium.woff") format("woff"),
+    url("fonts/aventa-font-family/Aventa-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aventa SB";
+  src: url("fonts/aventa-font-family/Aventa-SemiBold.eot");
+  src: local("Aventa Semi Bold"),
+    local("fonts/aventa-font-family/Aventa-SemiBold"),
+    url("fonts/aventa-font-family/Aventa-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/aventa-font-family/Aventa-SemiBold.woff2") format("woff2"),
+    url("fonts/aventa-font-family/Aventa-SemiBold.woff") format("woff"),
+    url("fonts/aventa-font-family/Aventa-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aventa R";
+  src: url("fonts/aventa-font-family/Aventa-Regular.eot");
+  src: local("Aventa"), local("fonts/aventa-font-family/Aventa-Regular"),
+    url("fonts/aventa-font-family/Aventa-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/aventa-font-family/Aventa-Regular.woff2") format("woff2"),
+    url("fonts/aventa-font-family/Aventa-Regular.woff") format("woff"),
+    url("fonts/aventa-font-family/Aventa-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

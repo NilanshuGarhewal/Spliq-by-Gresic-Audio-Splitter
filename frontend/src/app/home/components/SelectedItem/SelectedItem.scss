@@ -1,0 +1,71 @@
+@use "../../../../sass/variables" as *;
+
+.input-box-selected {
+  width: 100%;
+  height: auto;
+  border: $border;
+  border-radius: getSpacing(md);
+  background-color: $bg-two;
+  padding: getSpacing(md);
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(md);
+
+  .selected-item {
+    width: 100%;
+    height: auto;
+    padding: getSpacing(md);
+    border: $border;
+    border-radius: getSpacing(sm);
+    display: flex;
+    flex-direction: column;
+    gap: getSpacing(md);
+
+    .item-info {
+      font-family: $font-bold;
+      font-size: 1.2rem;
+    }
+
+    .item-audio {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: getSpacing(md);
+
+      .selected-audio {
+        flex: 1;
+
+        .progress-bar {
+          width: 100%;
+          height: 6px;
+          background: $border-color;
+          border-radius: 999px;
+          overflow: hidden;
+          margin-top: 4px;
+          cursor: pointer;
+
+          .progress-fill {
+            height: 100%;
+            background: #fff;
+            width: 0%;
+            transition: width 0.5s linear;
+          }
+        }
+      }
+
+      .duration {
+        font-size: 12px;
+        opacity: 0.2;
+      }
+    }
+  }
+
+  .input-control {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}

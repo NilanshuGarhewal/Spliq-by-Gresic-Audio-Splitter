@@ -1,0 +1,77 @@
+# ============================
+# 🐍 PYTHON BACKEND
+# ============================
+
+# Virtual environment
+demucs_env/
+venv/
+env/
+.venv/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.*
+!.env.example   # keep the example version
+
+# Local settings / secrets
+secrets.json
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+debug.log
+
+# ============================
+# 🚀 CUSTOM (for your project)
+# ============================
+
+# FastAPI uploads / separated audio
+uploads/
+separated/
+
+# Temporary output zips
+*.zip
+*.tar
+*.gz
+*.rar

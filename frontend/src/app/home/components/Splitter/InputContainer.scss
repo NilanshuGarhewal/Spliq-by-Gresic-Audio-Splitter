@@ -1,0 +1,26 @@
+@use "../../../../sass/variables" as *;
+
+.input-container {
+  padding: getSpacing(lg) getSpacing(xl);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: getSpacing(md);
+
+  .input-header {
+    .title {
+      font-size: 1.5rem;
+      font-family: $font-bold;
+    }
+  }
+
+  .input-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: getSpacing(md);
+    align-items: self-end;
+  }
+}

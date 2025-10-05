@@ -1,0 +1,26 @@
+@use "../../sass/variables" as *;
+
+.navbar {
+  width: 100vw;
+  height: getSpacing(xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 getSpacing(xl);
+  position: sticky;
+  top: 0;
+  background-color: $bg-one;
+  border-bottom: $border;
+  z-index: 100000;
+
+  .navbar-logo-container {
+    .navbar-logo-wrapper {
+      height: 2rem;
+
+      img {
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
+}
