@@ -21,6 +21,8 @@ const Splitter = () => {
   const [loading, setLoading] = useState(false);
   const [stems, setStems] = useState([]);
 
+  const API_URL = import.meta.env.VITE_API_URL_SPLIT;
+
   const audioRef = useRef(null);
   const fileInputRef = useRef(null);
   const progressBarRef = useRef(null);
@@ -100,13 +102,9 @@ const Splitter = () => {
     formData.append("file", file);
     try {
       setLoading(true);
-      const response = await axios.post(
-        "http://127.0.0.1:8000/split",
-        formData,
-        {
-          responseType: "blob",
-        }
-      );
+      const response = await axios.post(`${API_URL}`, formData, {
+        responseType: "blob",
+      });
 
       const zipBlob = new Blob([response.data], { type: "application/zip" });
       const JSZip = (await import("jszip")).default;
@@ -162,8 +160,6 @@ const Splitter = () => {
           )}
         </div>
       </div>
-
-
 
       {stems.length > 0 && (
         <div className="output-container">
