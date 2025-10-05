@@ -11,6 +11,10 @@
   justify-content: space-between;
   gap: getSpacing(md);
 
+  .stem-name {
+    width: 4.4rem;
+  }
+
   .single-control {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -19,6 +23,7 @@
     span {
       width: 2.4rem;
       height: 2.4rem;
+      min-width: 2.4rem;
       border: $border;
       border-radius: getSpacing(sm);
       @include flex-center;
@@ -34,7 +39,7 @@
     gap: getSpacing(md);
 
     .audio {
-      width: 100%;
+      flex: 1;
       height: auto;
       display: flex;
       align-items: center;

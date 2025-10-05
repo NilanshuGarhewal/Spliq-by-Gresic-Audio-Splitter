@@ -163,6 +163,8 @@ const Splitter = () => {
         </div>
       </div>
 
+
+
       {stems.length > 0 && (
         <div className="output-container">
           <div className="output-header">

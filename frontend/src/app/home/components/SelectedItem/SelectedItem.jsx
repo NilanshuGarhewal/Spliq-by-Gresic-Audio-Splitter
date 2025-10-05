@@ -1,6 +1,7 @@
 import React from "react";
 import { PlayIcon, StopIcon } from "@phosphor-icons/react";
 import "./SelectedItem.scss";
+import Loader from "../../../../Library/Loader/Loader";
 
 const SelectedItem = ({
   file,
@@ -62,7 +63,7 @@ const SelectedItem = ({
           onClick={handleUpload}
           disabled={loading}
         >
-          {loading ? "Processing..." : "Split"}
+          {loading ? <Loader /> : "Split"}
         </div>
       </div>
 

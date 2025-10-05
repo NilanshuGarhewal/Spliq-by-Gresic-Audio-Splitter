@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { PlayIcon, PauseIcon, DownloadSimpleIcon } from "@phosphor-icons/react";
+import { PlayIcon, StopIcon, DownloadSimpleIcon } from "@phosphor-icons/react";
 import "./StemPlayer.scss";
 
 const StemPlayer = ({ stem }) => {
@@ -57,9 +57,10 @@ const StemPlayer = ({ stem }) => {
   return (
     <div className="stem-container">
       <span className="stem-name">{stem.name}</span>
+
       <span className="stem-audio">
         <span className="toggle-btn button-square" onClick={toggle}>
-          {isPlaying ? <PauseIcon size={20} /> : <PlayIcon size={20} />}
+          {isPlaying ? <StopIcon size={20} weight="fill"/> : <PlayIcon size={20} weight="fill"/>}
         </span>
 
         <div className="audio" ref={progressBarRef} onClick={seek}>
