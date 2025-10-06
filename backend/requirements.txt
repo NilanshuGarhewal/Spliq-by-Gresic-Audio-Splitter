@@ -13,6 +13,9 @@ ffmpeg-python
 # File handling / utils
 zipfile36
 requests
+soundfile
+sox
+torchaudio
 
 # Optional (if you ever use pandas/matplotlib for stats or logs)
 # pandas==2.2.3
