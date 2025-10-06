@@ -1,7 +1,5 @@
 # Spliq – Music Source Separation Platform
 
-![Spliq Logo](./screenshots/spliq_logo.png)
-
 **Spliq** is a full-stack web application for seamless music source separation using [Demucs](https://github.com/facebookresearch/demucs). It allows users to split audio tracks into separate stems, such as vocals, drums, bass, guitars, and piano, making it ideal for music enthusiasts, producers, or anyone seeking instrumental or karaoke versions of songs.
 
 > **Note:** Currently, Spliq uses the default *htdemucs* model. Support for additional Demucs models like *htdemucs_ft*, *mdx_extra*, and *mdx_extra_q* is planned, and contributions are welcome.
@@ -57,9 +55,12 @@ cd spliq
 ```bash
 cd backend
 python -m venv env         # Create virtual environment
+
 # Activate the environment
+
 # Linux/macOS:
 source env/bin/activate
+
 # Windows:
 env\Scripts\activate
 
@@ -111,11 +112,16 @@ npm start
 | Model       | Description                          |
 | ----------- | ------------------------------------ |
 | htdemucs    | Default hybrid transformer model     |
+
+> Contributions for adding more models are welcome.  
+> If you want to contributing adding more models you can absolutely add models listen here.
+
+| Model       | Description                          |
+| ----------- | ------------------------------------ |
 | htdemucs_ft | Fine-tuned model, cleaner but slower |
 | mdx_extra   | Fast and efficient separation        |
 | mdx_extra_q | Super fast, lightweight model        |
 
-> Contributions for adding more models are welcome.
 
 ---
 
