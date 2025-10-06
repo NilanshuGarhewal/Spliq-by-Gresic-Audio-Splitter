@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar-logo-container">
         <div className="navbar-logo-wrapper">
-          <img src="images/logo/spliq_by_gresic_logo_no_bg.png" alt="spliq logo" />
+          <img src="images/logo/spliq_logo_no_bg.png" alt="spliq logo" />
         </div>
       </div>
     </div>

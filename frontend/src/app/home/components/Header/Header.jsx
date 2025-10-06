@@ -8,7 +8,15 @@ const Header = () => {
       <div className="model-header-heading">
         <span className="title">Audio Splitter</span>
         <span className="des">
-          This is the first model of our Spliq audio splitter, it can be inaccurate.
+          The model used is demucs, if you want to contribute & help in this
+          project, you're welcome. <br />
+          You can learn more about this project in{" "}
+          <a
+            href="https://github.com/NilanshuGarhewal/Spliq-by-Gresic-Audio-Splitter"
+            className="link"
+          >
+            GitHub
+          </a>
         </span>
       </div>
 
